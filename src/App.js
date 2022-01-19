@@ -59,6 +59,12 @@ export default () => {
 
       </section>
 
+      <footer>
+        Feito com <span role="img" aria-label="coração"></span>por Sebastião Marcos<br/>
+        Direito de imagem para Netflix<br/>
+        Dados pegos do site Themoviedb.org
+      </footer>
+
     </div>
   )
 }

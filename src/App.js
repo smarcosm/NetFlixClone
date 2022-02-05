@@ -60,11 +60,15 @@ export default () => {
       </section>
 
       <footer>
-        Feito com <span role="img" aria-label="coração"></span>por Sebastião Marcos<br/>
+        Feito <span role="img" aria-label="coração"></span>por Sebastião Marcos <br/>
         Direito de imagem para Netflix<br/>
         Dados pegos do site Themoviedb.org
       </footer>
-
+      {movieList.length <= 0 &&
+        <div  className="loading">
+          <img src="https://assets.wired.com/photos/w_2000/wp-content/uploads/2016/01/Netflix_LoadTime.gif" alt="Carregando..."/>
+        </div>
+      }
     </div>
   )
 }
